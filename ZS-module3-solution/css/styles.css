@@ -1,0 +1,139 @@
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: #ffd88a;
+  background-color: #14264B;
+  font-family: 'Oxygen', sans-serif;
+}
+
+a {
+  color: hotpink;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: hotpink;
+}
+
+/*** HEADER ***/
+#header-nav {
+  background-color: #90C79E;
+  border-radius: 0;
+  border: 0;
+
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffd88a;
+  font-weight: medium;
+  text-shadow: 2px 2px 2px #5d8066;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .9;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ffd88a;
+  text-align: center;
+  background: #5d8066;
+
+}
+#nav-list a:hover {
+  background: #445749;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ffd88a;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/*** END HEADER ***/
+
+
+/*** BODY ***/
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+section { 
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-top: 20px; 
+    text-align: justify;
+ }
+
+div section {
+  margin-bottom: 20px;
+    padding: 20px;
+}
+
+#section-1 {
+    background-color: #3d4c6b;
+}
+
+#section-2 {
+    background-color: #56637e;
+}
+
+#section-3 {
+    background-color: #6f7a91;
+}
+
+#text > h3 {
+    margin-bottom: 15px;
+}
+
+
+/*** END BODY ***/
+
+
+/*** Extra small devices ***/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 50px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 15px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.5em;
+  }
+  /* End Header */
+
+
+
+  
