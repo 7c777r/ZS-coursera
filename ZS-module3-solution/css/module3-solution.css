@@ -1,0 +1,150 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* FOOD, LLC */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+#Our-Menu{
+  color: black;
+}
+#title1{
+  color: black ;
+  font-weight: bold;
+  text-align:center;
+  padding: 0px;  
+}
+
+#Beef-tile, #Chicken-tile, #Sushi-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#Beef-tile:hover, #Chicken-tile:hover, #Sushi-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#Beef-tile, #Chicken-tile, #Sushi-tile{
+  color: black;
+  background-position: center;
+  background-color: gray;
+}
+/* END HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+   #nav-list a {
+  visibility: hidden;
+} 
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #nav-list a {
+  visibility: hidden;
+}
+}
+  /* End Header */
+  /* Home Page */
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  #nav-list a {
+  visibility: hidden;
+}
+  /* End Home Page */
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 70px;
+  }
+ #nav-list {
+  margin-top: 0px;
+  margin-bottom: 1px;
+  background-color: white;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-list #hr {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 1px solid black; 
+}
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+  #collapsable-nav a { /* Collapsed nav Chicken text */
+  font-size: 1.2em;
+   background-color: white;
+  }
+}
+ 
+  /* End Header */
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy

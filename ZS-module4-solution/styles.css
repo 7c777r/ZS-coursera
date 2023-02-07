@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0px 50px 0px;
+}
+
+h1 {
+  padding: 20px 20px 5px;
+  font-family: "Courier New", "Lucida Console", monospace;
+  font-size: 24.5px;
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+p {
+  border: 1px solid black;
+  padding: 20px 0px 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  overflow: auto;
+  background-color: lightgrey;
+  text-align: center;
+
+}
